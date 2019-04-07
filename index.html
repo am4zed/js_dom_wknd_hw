@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Countries To Visit</title>
+  <script type="text/javascript" src="./app.js">
+
+  </script>
+</head>
+<body>
+  <form id="new-item-form">
+    <div id="form-wrapper">
+      <div id="form-item">
+        <label for="country">Country: </label>
+        <input type="text" id="country" required>
+      </div>
+      <div id="form-item">
+        <label for="capital_city">Capital City: </label>
+        <input type="text" id="capital_city" required>
+      </div>
+      <div id="form-item">
+        <label for="language">Main Language Spoken: </label>
+        <input type="text" id="language" required>
+      </div>
+      <div id="form-item">
+        <label for="local_delicacy">Local Delicacy: </label>
+        <input type="text" id="local_delicacy" required>
+      </div>
+
+      <input type="submit" value="save">
+    </div>
+  </form>
+
+  <h2>Countries to Visit</h2>
+  <ul id='country-list'>
+
+  </ul>
+
+  <button type="button" id="delete_all">Delete Country List</button>
+</body>
+</html>
